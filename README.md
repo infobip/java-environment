@@ -1,2 +1,2 @@
-# java-environment
-Contains the pipeline for Java environment image used to run Infobip API code examples.
+# Java environment base Docker image
+Contains the pipeline for Java environment Docker image used to run Infobip API code examples.
