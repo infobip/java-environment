@@ -18,7 +18,7 @@ jobs:
       # Set up Docker Buildx, a CLI plugin that extends the docker command with
       # the additional features of builder toolkit.
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
+        uses: docker/setup-buildx-action@v1.3.0
       
       # Performs the login to the DockerHub using GitHub repository secrets.
       - name: Login to DockerHub
