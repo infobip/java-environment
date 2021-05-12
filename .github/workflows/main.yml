@@ -13,7 +13,7 @@ jobs:
     steps:
       # Set up QEMU, a generic and open source machine emulator and virtualizer.
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v1.1.0
       
       # Set up Docker Buildx, a CLI plugin that extends the docker command with
       # the additional features of builder toolkit.
